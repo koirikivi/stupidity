@@ -26,7 +26,7 @@ setup(
     },
     keywords=['stupid', 'stupidity', 'idiocy'],
     classifiers=[
-        'Development Status :: 4 - Alpha',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
