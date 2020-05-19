@@ -1,5 +1,10 @@
+import sys
+import pytest
 from stupidity import replace_closure_variables
 
+
+@pytest.mark.skipif(sys.version_info < (3, 7),
+                    reason='requires python3.7 or higher')
 def test_replace_closure_variables():
     def foo():
         x = 42

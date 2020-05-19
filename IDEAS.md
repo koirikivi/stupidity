@@ -13,5 +13,4 @@
     - TODO: example of using `get_closure_variable`
     - TODO: example of using `get_closure_variable` with `set_closure_variables` to deal with nested closures..
       or does it work like that?
-
-
+    - TODO: fix  on python 3.6
